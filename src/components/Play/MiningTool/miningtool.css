@@ -1,0 +1,21 @@
+.fill-mine-socket {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.active-mine-socket {
+    border-radius: 15px;
+    width:45%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+  }
+

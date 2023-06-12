@@ -1,0 +1,108 @@
+.item-socket {
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 156.44px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.15s ease-in-out;
+}
+
+.stakeunstake-background {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row-unstaked-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.row-control-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.row-staked-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-names-stakeunstake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  height: 20%;
+}
+
+
+.item-socket img {
+  height: 80px;
+  width: auto;
+}
+
+.item-socket-active {
+  outline: 4px solid rgb(240, 185, 73);
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  overflow-y: auto;
+  height: 440px;
+  position: relative;
+  z-index: 1;
+  padding: 10px 10px;
+}
+
+
+.items-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.items-container::-webkit-scrollbar-track {
+  background: #292929;
+}
+
+.items-container::-webkit-scrollbar-thumb {
+  background-color: #545454;
+  border-radius: 12px;
+  border: 3px solid #292929;
+}
+
+.items-container::-webkit-scrollbar-thumb:hover {
+  background-color: #7d7d7d;
+  border: 3px solid #292929;
+}
+
+
+.content-itemcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}

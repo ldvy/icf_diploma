@@ -1,0 +1,11 @@
+.content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginchoose-modal .modal-content {
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255);
+}

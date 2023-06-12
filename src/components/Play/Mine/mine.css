@@ -1,0 +1,73 @@
+.mine-background {
+  background-image: url('../../../assets/img-landing/bg-mine.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.mine-background .row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-for-row {
+  height: 90%;
+}
+
+.col-6 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+
+
+.mine-table {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  padding: 3%;
+}
+
+.mine-socket {
+  border-radius: 15px;
+  box-shadow: inset 20px 20px 20px #3c3b3b, inset -20px -20px 20px #8c8989;
+  width: 45%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.text-mine {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mine-socket-tool-mining img {
+  height: 70px;
+  width: auto;
+}
+
+.text-names {
+  vertical-align: top;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  margin-bottom: -10%;
+}

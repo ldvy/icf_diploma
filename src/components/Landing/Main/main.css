@@ -1,0 +1,96 @@
+.rounded-rectangle-section {
+  border-radius: 10px;
+  padding: 1vh;
+  opacity: 100%;
+  margin-top: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.img-about {
+  max-width: auto;
+  width: auto;
+}
+
+.img-whitepaper {
+  max-width: auto;
+  width: auto;
+}
+
+.img-play {
+  max-width: auto;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .img-about {
+    max-width: 20%;
+    width: auto;
+  }
+
+  .img-whitepaper {
+    max-width: 80%;
+    width: auto;
+  }
+
+  .img-play {
+    max-width: 70%;
+    width: auto;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -2vh;
+  }
+}
+
+.rarity-col {
+  text-align: center;
+}
+
+.carousel-inner img {
+  margin: auto;
+  max-width: 15vw;
+}
+
+.carousel-control-prev-icon {
+  display: block;
+  margin-left: -100%;
+  width: 100%;
+  background-image: url('../../../assets/img-landing/arrow-left.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.carousel-control-next-icon {
+  display: block;
+  margin-right: -100%;
+  width: 100%;
+  background-image: url('../../../assets/img-landing/arrow-right.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+  display: none;
+}
+
+.carousel .carousel-indicators button {
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 100%;
+  background-color: #ffed26;
+}
+
+.carousel .carousel-indicators button.active {
+  background-color: #ff1d06;
+}
+
+.text {
+  font-weight: normal;
+  color: #ffffff;
+  text-shadow: 0.08em 0.08em 0.08em #000000;
+  font-size: 1vw;
+}

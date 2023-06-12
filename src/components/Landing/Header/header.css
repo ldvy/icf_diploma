@@ -1,0 +1,37 @@
+nav {
+  opacity: 0.7;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-toggler {
+  margin-right: 5%;
+}
+
+@keyframes slideIn {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 500px;
+  }
+}
+
+.navbar-collapse.open {
+  animation: slideIn 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.text-header {
+  font-weight: normal;
+  color: #ffffff;
+  text-shadow: 0.08em 0.08em 0.08em #000000;
+  font-size: auto;
+}

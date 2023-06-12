@@ -1,0 +1,75 @@
+*, ::after, ::before {
+    max-block-size: 100%;
+    box-sizing: border-box;
+}
+
+.bg-play-main {
+    border-radius: 10px;
+    padding: 1vh;
+    opacity: 100%;
+    margin-top: 5vh;
+    /* background-color: rgb(145, 109, 109); */
+    height: 80%;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url('../../../assets/img-landing/bg-game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-section-menu {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bg-section-menu {
+    border-radius: 15px;
+    padding: 1vh;
+    opacity: 100%;
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* background-color: rgb(54, 54, 54); */
+    border: 3px solid rgb(191 177 177);
+    background-image: url('../../../assets/img-landing/bg-menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-for-component {
+    border-radius: 10px;
+    opacity: 100%;
+    /* background-color: rgb(158, 158, 157); */
+    height: 90%;
+    border: 3px solid rgb(191 177 177);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #ff9800;
+    background-color: #6c757d;
+}
+
+@media only screen and (max-width:1200px) {
+    .container-for-component {
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .container-for-component {
+        height: 60%;
+    }
+}

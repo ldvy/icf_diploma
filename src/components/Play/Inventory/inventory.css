@@ -1,0 +1,95 @@
+.inventory-item-socket {
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 156.44px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2%;
+}
+
+.inventory-background {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../../../assets/img-landing/bg-inventory.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.inventory-items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow-y: auto;
+    max-block-size: 100%;
+    height: 620px;
+    position: relative;
+    z-index: 1;
+    padding: 10px 10px;
+}
+
+.inventory-items-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.inventory-items-container::-webkit-scrollbar-track {
+    background: #292929;
+}
+
+.inventory-items-container::-webkit-scrollbar-thumb {
+    background-color: #545454;
+    border-radius: 12px;
+    border: 3px solid #292929;
+}
+
+.inventory-items-container::-webkit-scrollbar-thumb:hover {
+    background-color: #7d7d7d;
+    border: 3px solid #292929;
+}
+
+
+.inventory-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: 5%;
+    border: 2px solid #ffc10700;
+    position: relative;
+    height: 360px;
+}
+
+.inventory-item-durability-text {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+.inventory-item-repair-cost-text {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.inventory-item-mining-info-text {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.inventory-item-stuck-info-text {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.repair-button {
+    position: absolute;
+    bottom: 0;
+}

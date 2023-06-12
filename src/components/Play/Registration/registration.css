@@ -1,0 +1,66 @@
+.registration-container {
+    padding: 10%;
+    opacity: 100%;
+    background-image: url('../../../assets/img-landing/frame.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 10%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.registration-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:380px) {
+    .registration-container {
+        margin-top: 50%;
+        height: 50%;
+    }
+    .registration-content {
+        margin-top: 30%;
+        font-size: 55%;
+    }
+}
+
+
+
+@media only screen and (min-width:381px) and (max-width:500px) {
+    .registration-container {
+        margin-top: 50%;
+        height: 50%;
+    }
+    .registration-content {
+        margin-top: 40%;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:850px){
+    .registration-container {
+        margin-top: 20%;
+        height: 50%;
+    }
+    .registration-content {
+        margin-top: 20%;
+        font-size: 90%;
+    }
+}
+
+
+@media only screen and (min-width:851px) and (max-width:950px){
+    .registration-container {
+        margin-top: 20%;
+        height: 50%;
+    }
+    .registration-content {
+        margin-top: 20%;
+        font-size: 140%;
+    }
+}

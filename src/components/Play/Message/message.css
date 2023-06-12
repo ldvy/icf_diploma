@@ -1,0 +1,15 @@
+.toast-header .btn-close {
+    margin-left: auto;
+}
+
+.toaster-header {
+    color: #FF5722;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+
+.body-text {
+    text-align: left;
+    font-size: medium;
+}

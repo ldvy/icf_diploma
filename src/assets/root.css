@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'customfont';
+  src: url('./font.woff2') format('woff2');
+  font-weight: 600;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  font-family: 'customfont';
+  text-transform: uppercase;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 100%;
+  display: block;
+  overflow: auto;
+  background-color: rgb(110, 110, 110);
+  background-blend-mode: multiply;
+  background-image: url('./img-landing/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
